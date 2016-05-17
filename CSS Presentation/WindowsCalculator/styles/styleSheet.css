@@ -1,0 +1,11 @@
+div {
+    background-color:RGB(186,218,249);
+    border-radius: 5px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+img.logo{
+    width:17px;
+    background-color:RGB(186,218,249);
+    padding:5px;
+    border-radius: 5px;
+}

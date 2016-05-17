@@ -26,6 +26,7 @@ div, h1, h3, h4, h5, h6, header, footer, body, section, nav, article, aside {
 body {
     font: 14px normal Arial;
     color: white;
+    background-color:RGB(199,136,239);
 }
 
     body header {
@@ -62,6 +63,7 @@ body {
                     border-radius: 10px;
                     padding: 2px 5px;
                     margin: 5px;
+                    background-color:RGB(181,83,239);
                 }
 
             body header div#header-container div#reg-form-container button {
@@ -72,6 +74,9 @@ body {
                 border-style: outset;
                 border-radius: 10px;
                 padding: 5px 8px;
+                background-color:RGB(199,136,239);
+                color:white;
+                box-shadow: 1px 1px 1px #000;
             }
 
                 body header div#header-container div#reg-form-container button:hover {
@@ -85,6 +90,7 @@ body {
             margin: 20px 20px 20px 20px;
             padding: 12px;
             border: 2px solid #000;
+            border-radius: 15px;
         }
 
             body header nav ul.nav-list {
@@ -142,13 +148,14 @@ body {
     body section {
         width: 75%;
         float: left;
-        color: black;
+        color: white;
     }
 
         body section article {
             margin: 20px;
             padding: 20px;
-            border: 1px solid black;
+            border: 2px solid black;
+            border-radius: 15px;
         }
 
             body section article header {
@@ -214,18 +221,18 @@ body {
                 }
 
                     body aside > ul > li p a {
-                        color: #aaaaaa;
+                        color: RGB(181,83,239);
                         text-decoration: none;
                     }
 
                     body aside > ul > li p strong {
-                        color: #cccccc;
+                        color: RGB(181,83,239);
                         font-weight: bold;
                         font-style: normal;
                     }
 
                     body aside > ul > li p em {
-                        color: #cccccc;
+                        color: RGB(181,83,239);
                         font-weight: normal;
                         font-style: italic;
                     }
@@ -246,6 +253,8 @@ body {
                         background: url(images/li-dot.png) no-repeat;
                         background-position: 0 50%;
                         padding-left: 25px;
+                        list-style-image: url('images\li-dot.png');
+                        list-style-position: inside;
                     }
 
     body footer {
@@ -259,4 +268,8 @@ body {
         body footer p {
             font-size: 1.2em;
             font-weight: bold;
+            text-align:center;
+        }
+        body footer p a{
+            color:RGB(181,83,239);
         }
