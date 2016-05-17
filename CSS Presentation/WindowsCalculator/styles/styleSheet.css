@@ -1,11 +1,52 @@
-div {
+div.calc {
     background-color:RGB(186,218,249);
     border-radius: 5px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width:500px;
 }
 img.logo{
     width:17px;
     background-color:RGB(186,218,249);
     padding:5px;
     border-radius: 5px;
+}
+input.main{
+    width:95%;
+    height:50px;
+    margin:10px;
+    text-align:right;
+    vertical-align:bottom;
+    background-color:RGB(232,239,250);
+}
+ul.menu {
+    list-style-type: none;
+    margin: 1px;
+    padding: 0;
+}
+li {
+    display: inline;
+    padding-right: 10px;
+}
+div.menu{
+    border:1px solid grey;
+    background-color:RGB(216,221,238);
+    border-radius: 2px;
+    padding:3px;
+    width:98%;
+}
+div, table{
+    width:100%;
+    border:1px solid grey;
+    background-color:RGB(215,226,240);
+    border-radius: 2px;
+}
+input[type="button"]:{    
+    border-radius: 2px;
+    background-color:RGB(215,226,240);
+    border:1px solid grey;
+    width:35px;
+    height:35px;
+}
+input.active{    
+    background-color:RGB(232,239,250);
 }
